@@ -73,3 +73,6 @@ print(l1)
 
 s1.add(25) #insert value in set
 print(s1)
+
+s2 = {10, 1, True, 0, False}
+print(s2)
