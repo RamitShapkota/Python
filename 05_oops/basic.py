@@ -9,15 +9,19 @@ class Student:
 
     def __str__(self):
         return self
+    
 
 s1 = Student()
 s1.user_detail()
 s1.total_mark()
 
+
 # l1 = [1, 2, 3]
 # l1.append(79)
 # print(l1)
 ''''
+
+
 class AddNumber:
     def sum(self, num1, num2):
         return num1 + num2
@@ -28,6 +32,8 @@ b = int(input("enter the second number:"))
 print(ob.sum(a, b))
 
 '''
+
+
 # Constructor
 
 class Student:
@@ -35,4 +41,5 @@ class Student:
         print("this is constructor.")
 
 s1 = Student()
+
 
